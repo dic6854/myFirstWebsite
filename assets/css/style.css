@@ -1,0 +1,10 @@
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#promo {
+    text-align: center;
+    padding: 40px;
+    background: url(../img/background.jpg) no-repeat;
+    background-size: cover;
+}
