@@ -2,15 +2,16 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+#logo {
+    max-height: 42px;
+    margin-right: 10px;
+    margin-top: -3px;
+    display:inline-block;
+}
+
 #promo {
     background: url(../img/background.jpg) no-repeat;
     background-size: cover;
-}
-
-@media (max-width:767px) {
-    #promo, #jumbo {
-        padding: 20px !important;
-    }
 }
 
 #jumbo {
@@ -20,4 +21,50 @@ body {
     margin: 0 auto;
 }
 
+@media (max-width:767px) {
+    #promo, #jumbo {
+        padding: 20px !important;
+    }
+}
 
+.dark-section {
+    background-color: #eee;
+}
+
+.site-section {
+    text-align: center;
+    padding: 70px;
+}
+
+.site-section h1 {
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#welcome p {
+    max-width: 800px;
+    font-size: 20px;
+    margin: 0 auto;
+    color: #666;
+}
+
+#why .item {
+    padding-top: 36px;
+}
+
+#why .item i {
+    font-size: 42px;
+    color: rgb(205, 15, 120);
+}
+
+#why .item h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#why .item p {
+    color: #999;
+}
